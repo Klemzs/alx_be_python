@@ -28,4 +28,7 @@ class Library:
             return f"{self.title} has not been checked out"
         
      def return_book(self):
-        if not che 
+        if not che
+
+     def list_available_books(self):
+
