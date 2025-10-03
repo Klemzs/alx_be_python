@@ -34,22 +34,5 @@ class Library:
         else:
             print("No books available.")
 
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-library_management.py[+] [unix] (10:39 03/10/2025)                                    30,25 All
--- INSERT --
+
 
