@@ -3,26 +3,26 @@ class Book:
         self.title = title
         self.author = author
         self._is_checked_out = False
-        
+
 class Library:
     def __init__(self):
         self._books = []
 
     def add_book(self, book):
         self._books.append(book)
-    
+
     def check_out_book(self, title):
         for book in self._books:
             if book.title == title and not book._is_checked_out:
                 book._is_checked_out = True
                 return f"{book.title} has been checked out"
         return f"{title} is available"
-        
-    def return_book(self):
+
+    def return_book(self, title):
         for book in self._books:
             if book.title == title and book._is_checked_out:
                 book._is_checked_out = False
-                return f"'{book.title}' has been returned."
+                return
         return f"'{title}' was not checked out."
 
     def list_available_books(self):
@@ -33,25 +33,3 @@ class Library:
                 print(f"- {title}")
         else:
             print("No books available.")
-
-
-<<<<<<< HEAD
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-library_management.py[+] [unix] (10:39 03/10/2025)                                    30,25 All
--- INSERT --
-=======
->>>>>>> b43108bbec503f7be3ec17a77ba14bb572bf51ba
-
