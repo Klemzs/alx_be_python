@@ -35,6 +35,7 @@ class Library:
             print("No books available.")
 
 
+<<<<<<< HEAD
 ~
 ~
 ~
@@ -51,4 +52,6 @@ class Library:
 ~
 library_management.py[+] [unix] (10:39 03/10/2025)                                    30,25 All
 -- INSERT --
+=======
+>>>>>>> b43108bbec503f7be3ec17a77ba14bb572bf51ba
 
